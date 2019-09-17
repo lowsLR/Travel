@@ -1,5 +1,5 @@
 # travel
-zaaa
+这是一个简单仿照去哪儿旅游的vue项目
 
 ## Project setup
 ```
