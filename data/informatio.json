@@ -1,0 +1,27 @@
+{
+	"ret": true,
+	"info": {
+		"user": [{
+			"name": "骚强",
+			"integration":1000,
+			"GrowthValu":3211,
+			"member":"Lv3",
+			"imgUrl": "http://p98.pstatp.com/large/pgc-image/15394745048484e88f48b0b"
+		}],
+		"lr": [{
+			"register": "注册",
+			"login": "登录"
+		}],
+		"iconList": [
+			{
+				"sweep":"扫一扫",
+				"order":"我的订单",
+				"collect": "收藏",
+				"notice":"我的消息",
+				"install":"设置",
+				"quit":"退出"
+			}
+		]
+
+	}
+}

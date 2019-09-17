@@ -1,0 +1,26 @@
+<van-index-bar>
+  <van-index-anchor index="A" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+
+  <van-index-anchor index="B" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+
+  ...
+</van-index-bar>
+
+
+<div class="options">
+    <div class="cities-zm" v-for="(f,index) in cities" :key="index">
+      <div class="zm-title">{{index}}</div>
+      <div class="zm-city" v-for="c in f" :key="c.id">
+        <div class="txt">{{c.name}}</div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="col-zm" v-for="(column,n) in cities" :key="n">{{n}}</div>
+    </div>
+  </div>

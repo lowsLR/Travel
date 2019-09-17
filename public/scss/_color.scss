@@ -1,0 +1,6 @@
+$bg-color: rgb(12, 181, 211);
+$dot-color: hsl(180, 19%, 15%);
+$zt-color: #ff8300;
+@function travelbalck($opacity: 1) {
+  @return rgba(7, 17, 27, $opacity);
+}
